@@ -1,40 +1,56 @@
 *{
-    margin: 0px;
+    margin: 0px;    
     padding: 0px;
     box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
 }
-body{
-    background-color: rgb(199, 252, 222);
+.header{
+    height: 80px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.74);
 }
-nav{
+.header h1{
+    line-height: 80px;
+    padding: 0px 18px 0px 18px;
+    color: rgb(14, 216, 243);
+}
+.nav{
     height: 40px;
-    width: 90%;
-    background-color:rgb(2, 24, 95);
+    width: 100%;
+    background-color: rgba(241, 176, 12, 0.658);
+    
 }
-nav ul{
+.nav ul{
     list-style: none;
-    line-height: 40px;
-    display: flex;
-    
-}
-nav ul li{
- 
-}
-nav ul li a{
-    text-decoration: none;
-    color: rgb(251, 252, 252);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: block;
-    padding: 0px 30px;
-    border-right: solid 2px black;
-    font-weight: bold;
-}
-nav ul li a:hover{
-    text-decoration:underline 2px rgb(199, 252, 222);
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    transition: 0.6s;
-    background-color: rgb(255, 255, 255);
 
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 12px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav ul li a:hover{
+    color: rgb(14, 216, 243);
+    background-color: rgba(0, 0, 0, 0.774);
+    display: block;
+    transition: 0.6s;
+}
+.marquee{
+    height: 20px;
+    width:100%;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     
+}
+.marquee p{
+    line-height: 20px;
+    color: green;
 }
